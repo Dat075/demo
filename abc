@@ -33,7 +33,7 @@ echo $red."Sai Äá»‹nh Dáº¡ng\n";
 GOTO luachon;
 }
 if ($_SESSION['nhap'] =='no' or $_SESSION['nhap'] =='No'){
-$my = fopen("logVIPIG.txt", "w+");
+$my = fopen("logacc.txt", "w+");
 echo $white." â© ".$green."TĂ i khoáº£n VIPIG: ";
 $username =trim(fgets(STDIN));
 echo $white." â© ".$green."Máº­t Kháº©u VIPIG : ";
