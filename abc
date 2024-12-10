@@ -20,8 +20,8 @@ $_SESSION['fck'] = file_exists("VIPIG.txt");
 if ($_SESSION['fck'] == '1'){
   unlink("VIPIG.txt");
 }
-$_SESSION['check'] = file_exists("logVIPIG.txt");
-$_SESSION['checklistcc'] = file_exists("ListccVIPIG.txt");
+$_SESSION['check'] = file_exists("logacc.txt");
+$_SESSION['checklistcc'] = file_exists("Listccacc.txt");
 $nhaplaicc = false;
 if ($_SESSION['check'] =='1'){
   luachon:
